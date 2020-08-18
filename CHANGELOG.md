@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README file
 - CHANGELOG file
 
+### Fixed
+- Package name prefix for constants in NoteActivityViewModel class
+
 ## [0.1.1] - 2020-05-17
 ### Added
 - Classes from exercise files.
