@@ -21,8 +21,8 @@ public class DataManagerTest {
 
         NoteInfo compareNote = dm.getNotes().get(noteIndex);
 //        assertSame(newNote, compareNote); // check if two references point to the same object
-        assertEquals(compareNote.getCourse(), course);
-        assertEquals(compareNote.getTitle(), noteTitle);
-        assertEquals(compareNote.getText(), noteText);
+        assertEquals(course, compareNote.getCourse());
+        assertEquals(noteTitle, compareNote.getTitle());
+        assertEquals(noteText, compareNote.getText());
     }
 }
